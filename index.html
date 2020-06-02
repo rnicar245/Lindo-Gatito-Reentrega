@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html" charset="UTF-8"/>
+<title>Lindo Gatito</title>
+<script src="index.js"></script>
+</head>
+
+<body>
+<noscript>
+  <p>Para ver la página correctamente, por favor, active JavaScript</p>
+</noscript>
+
+<form>
+  <label>Nombre <input type="text" id="nombre" required/></label>
+  <span></span><br><br>
+  <label>Fecha nacimiento <input type="date" id="fecha" min="2000-12-01" required></label>
+  <span></span><br><br>
+  <label>Peso <input type="number" id="peso" min=1 max =15 required/></label>
+  <span></span><br><br>
+  <label>Raza <select id="raza">
+    <option value="Persa" selected>Persa</option> 
+    <option value="Siames">Siamés</option>
+    <option value="Somalí">Somalí</option>
+  </select>
+  </label><br><br>
+  <input type="submit" id="boton" value="Crear lindo gatito" required>
+</form>
+</body>
+</html>
