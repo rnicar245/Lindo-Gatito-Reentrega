@@ -24,7 +24,7 @@
     
     let fechaArray = elementos[1].value.split(/[\/-]/g);  
     let nuevaFecha = fechaArray[2]+"-"+fechaArray[1]+"-"+fechaArray[0];
-    let ventana = window.open("", "", "top=0,left=0,width=1000,height=1000");
+    let ventana = window.open("", "", "top=0,left=1000,width=1000,height=1000");
     ventana.document.write(`
       <html>
         <head>
